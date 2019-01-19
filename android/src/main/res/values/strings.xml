@@ -9,7 +9,7 @@
     <string name="enhance">Enhance</string>
     <string name="black">Black_White</string>
     <string name="reset">Reset</string>
-    <string name="scan">Scanning</string>
+    <string name="scan">Looking for document</string>
 
     <string name="next">Next</string>
     <string name="done">Done</string>
