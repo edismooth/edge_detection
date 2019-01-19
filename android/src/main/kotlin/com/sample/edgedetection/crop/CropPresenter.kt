@@ -28,7 +28,7 @@ import android.content.ContentValues
 
 
 
-const val IMAGES_DIR = "smart_scanner"
+const val IMAGES_DIR = "eSourceDataVerification"
 
 class CropPresenter(val context: Context, private val iCropView: ICropView.Proxy) {
     private val picture: Mat? = SourceManager.pic
