@@ -17,6 +17,6 @@ Plugin to detect edges of objects
   s.dependency 'Flutter'
   s.dependency 'WeScan'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '8.0'
 end
 
