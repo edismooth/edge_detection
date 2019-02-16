@@ -128,7 +128,7 @@ class CropPresenter(val context: Context, private val iCropView: ICropView.Proxy
                 if (null != cropPic) {
                     val file = File(dir, "crop_${SystemClock.currentThreadTimeMillis()}.jpeg")
                     val outStream = FileOutputStream(file)
-                    cropPic.compress(Bitmap.CompressFormat.JPEG, 100, outStream)
+                    cropPic.compress(Bitmap.CompressFormat.JPEG, 60, outStream)
                     outStream.flush()
                     outStream.close()
                     cropPic.recycle()
