@@ -26,13 +26,13 @@ class HomeViewController: UIViewController, ImageScannerControllerDelegate {
         scanner.dismiss(animated: true)
         
 
-        var imagePath = saveImage(image:results.scannedImage)
+        let imagePath = saveImage(image:results.scannedImage)
      _result!(imagePath)
        self.dismiss(animated: true)   
     }
     
 
-    func imageScannerControllerDidCancel(_ scanner: ImageScannerController) {
+        func imageScannerControllerDidCancel(_ scanner: ImageScannerController) {
         // Your ViewController is responsible for dismissing the ImageScannerController
         scanner.dismiss(animated: true)
          _result!(nil)
